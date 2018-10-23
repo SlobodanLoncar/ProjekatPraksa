@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Croonus Technologies | Software & Web Development</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="preloader-wrapper">
+        <div class="preloader">
+            <img src="./img/30.gif" alt="NILA">
+        </div>
+    </div>
+    <header class="top-menu">
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img class='img-responsive' src='img/Croonus%20Logo%20FInal-1%20White.PNG' height="20" alt="Croonus">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav ">
+                        <li>
+                            <a href="pocetna.html">POČETNA</a>
+                        </li>
+                        <li>
+                            <a href="usluge.html">USLUGE</a>
+                        </li>
+                        <li>
+                            <a href="reference.html">REFERENCE</a>
+                        </li>
+                        <li>
+                            <a href="onama.html">O NAMA</a>
+                        </li>
+                        <li class="active">
+                            <a href="kontakt.html">KONTAKT</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+        <div class="carousel-inner">
+            <div class="item slides active">
+                <div class="parallax-window slide-1" data-parallax="scroll" data-image-src="./img/kontakt.png">
+                </div>
+                <div class="hero col-xs-12">
+                    <hgroup>
+                        <h1>Budite slobodni pa Nas kontaktirajte</h1>
+                        <hr>
+                    </hgroup>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION CONTACTS  -->
+    <div class="container animated fadeIn">
+
+        <div class="row">
+            <h1 class="header-title"> Kontakt </h1>
+            <hr>
+            <div class="col-sm-12">
+                <div class="col-sm-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2875.255801105469!2d20.345687205460752!3d43.891968513259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47577218979e2255%3A0x3ed2d71011032b8a!2sCroonus+Technologies!5e0!3m2!1ssr!2s!4v1532259310151"
+                        width="100%" height="250pxa" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <div class="col-sm-6">
+                    <form action="form.php" class="contact-form" method="post">
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="nm" placeholder="Ime" required="" autofocus="">
+                        </div>
+
+
+                        <div class="form-group form_left">
+                            <input type="email" class="form-control" id="email" name="em" placeholder="Email" required="">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10"
+                                placeholder="Telefon" required="">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control textarea-contact" rows="5" id="comment" name="FB" placeholder="Poruka..." required=""></textarea>
+                            <br>
+                            <button class="btn btn-default btn-send">
+                                <span class="glyphicon glyphicon-send"></span> Pošalji </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container second-portion">
+            <div class="row">
+                <!-- Boxes de Acoes -->
+                <div class="col-xs-12 col-sm-6 col-lg-3">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="image">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </div>
+                            <div class="info">
+                                <h3 class="title">MAIL</h3>
+                                <p>
+                                    USA:
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp usa.office@croonus.com
+                                    <br>
+                                    <br> Srbija:
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp info@croonus.com
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-lg-3">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="image">
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                            </div>
+                            <div class="info">
+                                <h3 class="title">KONTAKT</h3>
+                                <p>
+                                    USA:
+                                    <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp +(302) 569 1255
+                                    <br>
+                                    <br> Srbija:
+                                    <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp +381 (0) 64 44 10 256
+                                    <br>
+                                    <i class="fa fa-fax" aria-hidden="true"></i> &nbsp +381 (0) 32 401 492
+                                </p>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-lg-3">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="image">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </div>
+                            <div class="info">
+                                <h3 class="title">ADRESA</h3>
+                                <p>
+                                    USA:
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp 12001 Old Vine Blvd Lewes, DE, 19958, United States
+                                    <br> Srbija:
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp Gospodar Jovanova 18, 32000 Čačak, Serbia
+                                </p>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="image">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="info">
+                                <h3 class="title">RADNO VREME</h3>
+                                <p>
+                                    <i class="fa fa-clock-o" aria-hidden="true"></i> &nbsp Ponedeljak - Petak: 08:00 - 16:00
+                                    <br>
+                                    <i class="fa fa-clock-o" aria-hidden="true"></i> &nbsp Subota - Nedelja: Zatvoreno.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+                </div>
+                <!-- /Boxes de Acoes -->
+
+                <!--My Portfolio  dont Copy this -->
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <br>
+                    <br>
+                    <img src="./img/logoCroonus.png" height="60" alt="logo">
+                    <br>
+                    <br>
+                    <p class="par">Croonus je kompanija koja pruža end-to-end razvojnu uslugu za razvoj veb i mobilnih uređaja, digitalnog
+                        marketinga i IT konsultacija.</p>
+                    <hr>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/Croonus/" target="_blank">
+                            <i class="fa fa-facebook">
+                            </i>
+                        </a>
+                        <a href="https://www.instagram.com/lifeatcroonus/" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEoR4r1Df9ANgAAAWSkLaRgfs82uwLkRQDxM8pm8HNwmDMULzDT1DFF-nW7kmCi-nNjMIqYgb92TyMpr4XfHQsxmzRIxvRzQiBR3EmTnp3pzJiYYml8-w4lEaqLcGRYpFYK0ZE=&originalReferer=https://croonus.com/index.php&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fcroonus-technologies"
+                            target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCTCxl3sqxPqafMhOsKVVEMQ?view_as=subscriber" target="_blank">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <ul class="menu">
+                        <span>Meni</span>
+                        <li>
+                            <a href="usluge.html">Usluge</a>
+                        </li>
+
+                        <li>
+                            <a href="reference.html">Reference</a>
+                        </li>
+
+                        <li>
+                            <a href="onama.html">O nama</a>
+                        </li>
+                        <li>
+                            <a href="kontakt.html">Kontakt</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12" id="footer-kontakt">
+                    <div class="customContact">
+                        <span>Kontakt</span>
+                        <ul class="address col-md-6 col-lg-6 col-sm-6">
+                            <p class="par-delaware">Delaware Office</p>
+                            <li>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <p>Adresa: 12001 Old Vine Blvd Lewes, DE, 19958, United States</p>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <p>Telefon: +(302) 569 1255 </p>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <p>E-mail: usa.office@croonus.com</p>
+                            </li>
+                        </ul>
+                        <ul class="address-cacak col-md-6 col-lg-6 col-sm-6">
+                            <p class="par-cacak">Čačak Office</p>
+                            <li>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <p>Adresa: Gospodar Jovanova 18, 32000 Čačak, Serbia</p>
+
+                            </li>
+                            <li>
+                                <i class="fa fa-fax" aria-hidden="true"></i>
+                                <p>Fiksni telefon: +381 (0) 32 401 492 </p>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <p>Telefon: +381 (0) 64 44 10 256 </p>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <p>E-mail: info@croonus.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center copyright" id="footer-botom">
+                <p class="par-botom">
+                    © 2018 Croonus Tehnologies Čačak | Sva prava su zadržana.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <div class="scrolltop">
+        <img src="./img/top.png" alt="top image" height="30" width="30">
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery/jquery-3.3.1.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src='bootstrap/js/script.js'></script>
+    <script src='main.js'></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax/parallax.js"></script>
+    <script src="parallax/parallax.min.js"></script>
+    <script src="preloader.js"></script>
+
+</body>
+
+</html>
